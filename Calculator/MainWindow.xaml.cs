@@ -95,6 +95,8 @@ namespace Calculator
             previousOperator = "";
 
             newValue = true;
+
+            SecondTextBlock.Text = "";
         }
 
         private void OnClickMathFunction(object sender, RoutedEventArgs e)
